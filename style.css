@@ -1,0 +1,31 @@
+body{
+  font-family: cursive !important ;
+}
+
+.back{
+  background: url("img/photo_2023-01-11_18-53-23.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roww{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.rwo{
+  padding-top: 60px;
+}
+
+.card{
+  transition: all ease-in-out .5s;
+  background-color: white;
+}
+
+.col:hover .card {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
